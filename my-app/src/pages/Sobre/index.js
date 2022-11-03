@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Sobre() {
 
   return (
     <div className="container">
-
-    <Link to='/'>Home</Link>
-    <br/>
-    <Link to='/contato'>Contato</Link>
+      <h1>Sobre</h1>
+      <br />
+      <Link to='/'>Home</Link>
+      <br />
+      <Link to='/contato'>Contato</Link>
 
 
     </div>
