@@ -1,14 +1,10 @@
-import { useEffect, useState } from 'react';
-import './style.css'
+import RoutesApp from "./routes";
 
 function App() {
 
-  return (
-    <div className="container">
-      teste
-
-    </div>
-  );
+    return (
+        <RoutesApp />
+    );
 }
 
 export default App;
